@@ -7,8 +7,7 @@ if (!defined('__TYPECHO_ROOT_DIR__'))
 
 <div class="fixed left-10 bottom-10 text-gray-300 text-[12px] side-area side-area-left">
     <div class="flex flex-col"><div>Powered By <a href="https://xiaopanglian.com" class="cursor-pointer text-gray-300"
-            target="_blank">Icefox Theme</a> .
-    <a href="https://blog.qixing1217.top/article/8879698e-363b-407a-9ec4-72f713c4e0bd" class="cursor-pointer text-gray-600" target="_blank">部署教程</a></div>
+            target="_blank">Icefox Theme</a> </div>
         <?php
         $beian = $this->options->beian;
         if (!empty($beian)) {
